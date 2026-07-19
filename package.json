@@ -1,12 +1,24 @@
 {
   "name": "pi-statusline",
-  "private": true,
-  "description": "Amp-inspired and sticky input UI for Pi Coding Agent",
+  "version": "0.1.0",
+  "description": "Amp-inspired status line and sticky input UI for Pi Coding Agent",
   "keywords": ["pi-package"],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Raunak0713/pi-statusline.git"
+  },
   "scripts": {
     "lint": "eslint .",
-    "typecheck": "tsc -p tsconfig.json"
+    "typecheck": "tsc -p tsconfig.json",
+    "prepublishOnly": "npm run typecheck && npm run lint"
   },
+  "files": [
+    "index.ts",
+    "src/",
+    "themes/",
+    "README.md"
+  ],
   "pi": {
     "extensions": ["./src/index.ts"],
     "themes": ["./themes"]
@@ -18,5 +30,8 @@
     "eslint": "^10.5.0",
     "typescript": "5.9.3",
     "typescript-eslint": "^8.62.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
