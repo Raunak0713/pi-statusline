@@ -9,7 +9,6 @@ An Amp-inspired input for Pi Coding Agent, with an optional sticky terminal layo
 ### As a pi package
 
 ```bash
-pi install /path/to/pi-statusline
 pi install git:github.com/Raunak0713/pi-statusline
 pi install npm:@raunak07/pi-statusline
 ```
