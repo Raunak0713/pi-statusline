@@ -19,8 +19,7 @@ Minimal chrome with rounded borders and information-rich labels:
 
 - **Top-left:** Bash mode indicator (`$` prompt on `!` prefix) + live agent timer
 - **Top-right:** Session cost, model name, thinking level (capitalized), context usage %
-- **Bottom-left:** Git branch with dirty/ahead/behind indicators
-- Auto-refreshing git status, timer, and cost
+- Auto-refreshing timer and cost
 
 ### 2. Sticky input
 Keep the input bar pinned while chat history scrolls. Toggle with `/input-style`.
