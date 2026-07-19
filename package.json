@@ -1,5 +1,5 @@
 {
-  "name": "pi-statusline",
+  "name": "@raunak07/pi-statusline",
   "version": "0.1.0",
   "description": "Amp-inspired status line and sticky input UI for Pi Coding Agent",
   "keywords": ["pi-package"],

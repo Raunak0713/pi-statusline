@@ -47,8 +47,8 @@ Select via `/settings` → Theme.
 
 ```bash
 pi install /path/to/pi-statusline
-pi install git:github.com/your-user/pi-statusline
-pi install npm:pi-statusline
+pi install git:github.com/Raunak0713/pi-statusline
+pi install npm:@raunak07/pi-statusline
 ```
 
 
