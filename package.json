@@ -1,8 +1,10 @@
 {
   "name": "@raunak07/pi-statusline",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Amp-inspired status line and sticky input UI for Pi Coding Agent",
-  "keywords": ["pi-package"],
+  "keywords": [
+    "pi-package"
+  ],
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -20,8 +22,12 @@
     "README.md"
   ],
   "pi": {
-    "extensions": ["./src/index.ts"],
-    "themes": ["./themes"]
+    "extensions": [
+      "./src/index.ts"
+    ],
+    "themes": [
+      "./themes"
+    ]
   },
   "devDependencies": {
     "@earendil-works/pi-coding-agent": "0.80.10",
