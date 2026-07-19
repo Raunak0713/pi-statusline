@@ -1,0 +1,80 @@
+{
+  "$schema": "https://raw.githubusercontent.com/earendil-works/pi/main/packages/coding-agent/src/modes/interactive/theme/theme-schema.json",
+  "name": "amp",
+  "vars": {
+    "white": "#e0e0e0",
+    "lightGray": "#b0b0b0",
+    "gray": "#808080",
+    "dimGray": "#606060",
+    "darkGray": "#404040",
+    "darkerGray": "#2a2a2a",
+    "bg": "#1a1b26",
+    "surface": "#22222a",
+    "surface2": "#2a2a32"
+  },
+  "colors": {
+    "accent": "#8abeb7",
+    "border": "darkGray",
+    "borderAccent": "darkGray",
+    "borderMuted": "#505050",
+    "success": "#b5bd68",
+    "error": "#cc6666",
+    "warning": "#e0af68",
+    "muted": "gray",
+    "dim": "#666666",
+    "text": "#d4d4d4",
+    "thinkingText": "gray",
+
+    "selectedBg": "darkerGray",
+    "userMessageBg": "#22222a",
+    "userMessageText": "lightGray",
+    "customMessageBg": "surface2",
+    "customMessageText": "lightGray",
+    "customMessageLabel": "gray",
+    "toolPendingBg": "#24242c",
+    "toolSuccessBg": "#24242c",
+    "toolErrorBg": "#2a2424",
+    "toolTitle": "lightGray",
+    "toolOutput": "gray",
+
+    "mdHeading": "white",
+    "mdLink": "lightGray",
+    "mdLinkUrl": "dimGray",
+    "mdCode": "white",
+    "mdCodeBlock": "lightGray",
+    "mdCodeBlockBorder": "darkGray",
+    "mdQuote": "gray",
+    "mdQuoteBorder": "darkGray",
+    "mdHr": "darkGray",
+    "mdListBullet": "lightGray",
+
+    "toolDiffAdded": "lightGray",
+    "toolDiffRemoved": "gray",
+    "toolDiffContext": "dimGray",
+
+    "syntaxComment": "#5c6370",
+    "syntaxKeyword": "#b0b0b0",
+    "syntaxFunction": "#d0d0d0",
+    "syntaxVariable": "#c0c0c0",
+    "syntaxString": "#c8c8c8",
+    "syntaxNumber": "#c8c8c8",
+    "syntaxType": "#b8b8b8",
+    "syntaxOperator": "#a0a0a0",
+    "syntaxPunctuation": "#606060",
+
+    "thinkingOff": "#505050",
+    "thinkingMinimal": "#6e6e6e",
+    "thinkingLow": "#5f87af",
+    "thinkingMedium": "#81a2be",
+    "thinkingHigh": "#b294bb",
+    "thinkingXhigh": "#d183e8",
+    "thinkingMax": "#ff5fff",
+
+    "bashMode": "#b5bd68"
+  },
+  "export": {
+    "pageBg": "#1a1b26",
+    "cardBg": "#1f2130",
+    "infoBg": "#242424"
+  }
+}
