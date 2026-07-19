@@ -51,5 +51,6 @@ pi install git:github.com/Raunak0713/pi-statusline
 pi install npm:@raunak07/pi-statusline
 ```
 
+## Credits
 
-# pi-statusline
+Originally cloned and adapted from [VinhLe1410/pi-custom-input](https://github.com/VinhLe1410/pi-custom-input).
