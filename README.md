@@ -2,6 +2,8 @@
 
 An Amp-inspired input for Pi Coding Agent, with an optional sticky terminal layout that keeps the editor visible while chat history scrolls, plus a session cost breakdown command.
 
+![Status Bar](Status.png)
+
 ## Installation
 
 ### As a pi package
