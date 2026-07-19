@@ -2,6 +2,16 @@
 
 An Amp-inspired input for Pi Coding Agent, with an optional sticky terminal layout that keeps the editor visible while chat history scrolls, plus a session cost breakdown command.
 
+## Installation
+
+### As a pi package
+
+```bash
+pi install /path/to/pi-statusline
+pi install git:github.com/Raunak0713/pi-statusline
+pi install npm:@raunak07/pi-statusline
+```
+
 ## Features
 
 ### 1. Amp-inspired input bar
@@ -40,16 +50,6 @@ Select via `/settings` → Theme.
 | `/cost` | Show cost breakdown across all sessions |
 | `/input-style` | Toggle sticky input on/off |
 | `/settings` → Theme | Switch between bundled themes |
-
-## Installation
-
-### As a pi package
-
-```bash
-pi install /path/to/pi-statusline
-pi install git:github.com/Raunak0713/pi-statusline
-pi install npm:@raunak07/pi-statusline
-```
 
 ## Credits
 
